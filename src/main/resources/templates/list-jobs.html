@@ -4,17 +4,21 @@
 </head>
 <body>
 
-<div th:replace="fragments :: page-header" />
+<div th:replace="fragments :: page-header"/>
 
 <div class="container body-content">
 
-    <h1 th:text="${#strings.capitalizeWords(title)}" />
+    <h1 th:text="${#strings.capitalizeWords(title)}"/>
 
 
-    <table th:replace="fragments :: table" />
+    <table th:replace="fragments :: table"/>
+
 
 
 </div>
+
+
+
 
 </body>
 </html>
